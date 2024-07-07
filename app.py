@@ -34,7 +34,7 @@ app = dash.Dash(__name__)
 
 # Diseño de la aplicación
 app.layout = html.Div([
-    html.H1("Índice de Algo por Región y Sexo"),
+    html.H1("PERÚ:Tasa bruta de asistencia escolar de los adolescentes (12 a 16 años)"),
     dcc.Dropdown(
         id='region-dropdown',
         options=[
