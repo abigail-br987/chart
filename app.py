@@ -31,6 +31,7 @@ df.set_index(['Ámbito Geográfico / Sexo', 'Sexo'], inplace=True)
 
 # Inicializar la aplicación Dash
 app = dash.Dash(__name__)
+server = app.server
 
 # Diseño de la aplicación
 app.layout = html.Div([
